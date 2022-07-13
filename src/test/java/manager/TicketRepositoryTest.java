@@ -10,12 +10,12 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 public class TicketRepositoryTest {
     TicketRepository repo = new TicketRepository();
 
-    Ticket ticket1 = new Ticket(1, 200, "KUF", "ABA", 130);
-    Ticket ticket2 = new Ticket(2, 800, "VKO", "AKX", 480);
-    Ticket ticket3 = new Ticket(3, 300, "VOZ", "AYT", 45);
-    Ticket ticket4 = new Ticket(4, 400, "AER", "SVO", 90);
+    Ticket ticket1 = new Ticket(1, 200, "KUF", "AKX", 130);
+    Ticket ticket2 = new Ticket(2, 800, "KUF", "AER", 480);
+    Ticket ticket3 = new Ticket(3, 300, "VOZ", "AKX", 45);
+    Ticket ticket4 = new Ticket(4, 400, "KUF", "AKX", 90);
     Ticket ticket5 = new Ticket(5, 550, "ARH", "AER", 180);
-    Ticket ticket6 = new Ticket(6, 650, "TLV", "AZN", 200);
+    Ticket ticket6 = new Ticket(6, 650, "KUF", "AKX", 200);
 
     @Test
     public void emptyRepo() {
